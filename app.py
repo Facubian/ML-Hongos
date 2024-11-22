@@ -9,9 +9,9 @@ st.set_page_config(
     page_title="Trabajo Practico 1"
 )
 
-log_model = joblib.load("/content/modelos/log_model.pkl")
-mlp_model = joblib.load("/content/modelos/mlp_model.pkl")
-svm_model = joblib.load("/content/modelos/svm_model.pkl")
+log_model = joblib.load("/modelos/log_model.pkl")
+mlp_model = joblib.load("/modelos/mlp_model.pkl")
+svm_model = joblib.load("/modelos/svm_model.pkl")
 
 st.write("# Trabajo Practico n°1 👋")
 
